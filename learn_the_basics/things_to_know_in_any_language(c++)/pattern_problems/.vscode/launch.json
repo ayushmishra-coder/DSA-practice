@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/ayush/OneDrive/Desktop/DSA-practice/learn_the_basics/things_to_know_in_any_language(c++)/pattern_problems",
+      "program": "c:/Users/ayush/OneDrive/Desktop/DSA-practice/learn_the_basics/things_to_know_in_any_language(c++)/pattern_problems/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
