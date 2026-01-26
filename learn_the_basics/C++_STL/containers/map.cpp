@@ -12,11 +12,11 @@ void explainMap(){
 
     //acessing map elements
     for(auto it: mp){
-        cout << it.first << " " << endl; 
+        cout << "key=" << it.first << ";" << "value=" << it.second << endl; 
     }
 
     cout << mp[1]; //return 2
-    cout << mp[5]; //returm 0(since mp[5] aint put yet)
+    cout << mp[5]; //return 0(since mp[5] aint put yet)
 
     auto it=mp.find(3);    //returns iterator pointing to elementt with key 3
     cout << (*it).second ; //elemnt with key 3 ka second
