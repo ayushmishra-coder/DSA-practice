@@ -10,10 +10,10 @@ void explainPriority_queue(){
     pq.push(28)    ;//{30,28,25}
     pq.push(10)    ;//{30,28,25,10}
     pq.push(29)    ;//{30,29,28,25,10}
-    cout << pq.top();
+    cout << pq.top();//gives 30
     cout << endl;
     //pq.pop();  //pops 1st element/top element //{29,28,25,10}
-    //cout << pq.top();
+    //cout << pq.top();//gives 29 now
     
     //cout << endl;
     cout << "{" ;
@@ -30,7 +30,7 @@ void explainPriority_queue(){
     PQ.emplace(30) ;//{25,30}
     PQ.push(28)    ;//{25,28,30}
     PQ.push(10)    ;//{10,25,28,30}
-    PQ.push(29)    ;//{10.25,28,29,30}
+    PQ.push(29)    ;//{10,25,28,29,30}
     cout << PQ.top();
     cout << endl;
     cout << "{" ;
